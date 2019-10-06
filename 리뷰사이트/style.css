@@ -1,0 +1,113 @@
+h3{
+   text-align:right;
+}
+h1{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+body{
+
+ z-index: 1;
+
+}
+body::after{
+  content:'';
+  position: fixed;
+  width:100vw;
+  height:100vh;
+  opacity: 0.9;
+  background-image: url(background.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/*
+#wrapper{
+  border:5px solid red;
+}
+#wrapper>*{
+  border:5px solid green;
+
+}
+#wrapper>*>*{
+  /*border:5px solid blue;*/
+}
+
+div{
+  width: 200;
+}
+
+#header{
+  text-align: center;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+}
+#header .top {
+  border-radius: 100%;
+  display:inline-block;
+  padding:0.2rem;
+  background-color: rgba(  000, 051,102, 0.05);
+  border:6px solid rgba(  000, 051,102,0.25);
+
+  margin-bottom: 1.5rem;
+}
+#header .top .thumbnail{
+  width:200px;
+  height:200px;
+  background-size:cover;
+  border-radius: 100%;
+  background-position : center right;
+  display:block;
+}
+#header h1{
+ font-size: 1.5rem;
+ color: rgba(  000, 000,000,0.8);
+ font-weight: 200;
+ font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+#header h1 strong{
+  color:black;
+  font-weight: 200;
+}
+#main {
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+#main .thumbnails{
+  display: flex;
+  text-align: center;
+}
+
+#main .thumbnails>div{
+  flex-grow: 1;
+
+}
+
+
+#main .thumbnails img{
+
+  width:300px;
+  margin:10px;
+  height:300px;
+  background-size: cover;
+  border-radius: 100%;
+  position : center center;
+}
+#main .thumbnails a{
+  margin-bottom: 1.5rem;
+  display:
+}
+#footer{
+text-align: center;
+
+}
+#footer:before{
+
+  display:block;
+  margin:2rem auto;
+  width:10rem;
+border-top:1px solid white;
+}
